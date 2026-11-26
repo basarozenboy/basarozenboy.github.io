@@ -49,6 +49,8 @@
   <ul>
     <li>There is no sign-up and no account, and we do not run our own servers.</li>
     <li>Your best score and settings are stored only on your phone.</li>
+    <li>"Remove ads" is an optional purchase handled entirely by Google Play; we never see your payment details.</li>
+    <li>If you sign in to Google Play Games, your score is sent to the Play Games leaderboard with your gamer profile.</li>
     <li>If the app crashes, a crash report is sent to us through Google Firebase Crashlytics so we can fix the problem. It does not contain your name, email address or advertising ID.</li>
     <li>The app shows ads from Google AdMob. Google collects some device data to show and measure those ads, as described below.</li>
   </ul>
@@ -87,7 +89,7 @@
   </ul>
   <p>Crash reports do not contain your name, email address, contacts, location or advertising ID, and they are not used for advertising.
   Like any internet connection, sending the report uses your IP address. Google keeps crash reports for 90 days.
-  Firebase Analytics is turned off in the app. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+  Firebase Analytics is not included in the app. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
 
   <h3>Leaderboard (Google Play Games)</h3>
   <p>If the leaderboard is available in your version of the app and you are signed in to Google Play Games, your score is sent to
@@ -95,7 +97,9 @@
   so other players can see it. If you are not signed in, no score is sent; tapping the leaderboard button (🏆) asks you to sign in first.</p>
   <p>Play Games is a Google service, and your profile and scores are handled under the
   <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can change who sees your profile, or delete your
-  Play Games data, in the Google Play Games settings.</p>
+  Play Games data, in the Google Play Games settings.
+  The Play Games SDK also sends diagnostics and usage data to Google so Google can keep the service stable, as described in
+  <a href="https://developer.android.com/games/pgs/data-collection">Play Games Services data collection</a>.</p>
 
   <h3>Your choices</h3>
   <ul>
@@ -133,6 +137,8 @@
   <ul>
     <li>Üyelik veya hesap yoktur; kendi sunucumuzu çalıştırmıyoruz.</li>
     <li>En yüksek skorunuz ve ayarlarınız yalnızca telefonunuzda saklanır.</li>
+    <li>"Reklamları kaldır" isteğe bağlı bir satın almadır ve tamamen Google Play üzerinden yapılır; ödeme bilgilerinizi hiçbir zaman görmeyiz.</li>
+    <li>Google Play Games'te oturum açarsanız skorunuz oyuncu profilinizle Play Games skor tablosuna gönderilir.</li>
     <li>Uygulama çökerse, sorunu düzeltebilmemiz için Google Firebase Crashlytics aracılığıyla bize bir çökme raporu gönderilir. Bu rapor adınızı, e-posta adresinizi veya reklam kimliğinizi içermez.</li>
     <li>Uygulama Google AdMob reklamları gösterir. Google, bu reklamları göstermek ve ölçmek için aşağıda açıklanan bazı cihaz verilerini toplar.</li>
   </ul>
@@ -171,14 +177,16 @@
   </ul>
   <p>Çökme raporları adınızı, e-posta adresinizi, rehberinizi, konumunuzu veya reklam kimliğinizi içermez ve reklam amacıyla kullanılmaz.
   Her internet bağlantısında olduğu gibi, raporun gönderilmesi sırasında IP adresiniz kullanılır. Google çökme raporlarını 90 gün saklar.
-  Uygulamada Firebase Analytics kapalıdır. Ayrıntılar için <a href="https://firebase.google.com/support/privacy">Firebase'de Gizlilik ve Güvenlik</a> sayfasına bakabilirsiniz.</p>
+  Firebase Analytics uygulamada bulunmaz. Ayrıntılar için <a href="https://firebase.google.com/support/privacy">Firebase'de Gizlilik ve Güvenlik</a> sayfasına bakabilirsiniz.</p>
 
   <h3>Skor tablosu (Google Play Games)</h3>
   <p>Skor tablosu uygulamanın sizdeki sürümünde varsa ve Google Play Games'e giriş yaptıysanız, her oyunun sonunda skorunuz
   Google Play Games'e gönderilir. Skorunuz, Play Games profil adınız ve avatarınızla birlikte skor tablosunda gösterilir ve diğer oyuncular
   tarafından görülebilir. Giriş yapmadıysanız hiçbir skor gönderilmez; skor tablosu düğmesine (🏆) dokunduğunuzda önce giriş yapmanız istenir.</p>
   <p>Play Games bir Google hizmetidir; profiliniz ve skorlarınız <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>'na
-  göre işlenir. Profilinizi kimlerin görebileceğini değiştirebilir ya da Play Games verilerinizi Google Play Games ayarlarından silebilirsiniz.</p>
+  göre işlenir. Profilinizi kimlerin görebileceğini değiştirebilir ya da Play Games verilerinizi Google Play Games ayarlarından silebilirsiniz.
+  Play Games SDK'sı, Google'ın hizmeti kararlı tutabilmesi için Google'a tanılama ve kullanım verileri de gönderir; ayrıntılar
+  <a href="https://developer.android.com/games/pgs/data-collection">Play Games Hizmetleri veri toplama</a> sayfasındadır.</p>
 
   <h3>Seçenekleriniz</h3>
   <ul>
